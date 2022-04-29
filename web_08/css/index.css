@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li{
+	margin: 10px;
+	list-style-type: none;
+}
+body{
+	background: rgb(230,230,230);
+}
+.m-bd>div{
+	display: none;
+}
+.m-bd>div.sel{
+	display: block;
+}
+.m-f{
+	position: relative;
+	height: 250px;
+	width: 425px;
+	background: white;
+	border: 1px solid black;
+}
+.m-f>div{
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin: 15px 0 0 15px;
+	border: 1px solid black;
+}
+#bigimg,#bigimgs{
+	position: absolute;
+	margin-left: -100px;
+	margin-top: -100px;
+	left:50%;
+	top: 50%;
+	height: 200px;
+	width: 200px;
+	display: none;
+}
+.s-ti{
+	height: 31px;
+	width: 380px;
+}
+.s-ti div{
+	float: left;
+	margin-left: -1px;
+	height: 30px;
+	width: 70px;
+	border:1px solid black;
+	background: white;
+}
+.s-ti div:nth-child(1) {
+	margin-left: 20px;
+	
+}
+.s-bd {
+	height: 250px;
+	width: 380px;
+}
+.s-bd div {
+	height: 250px;
+	width: 380px;
+	background: white;
+	border:1px solid black;
+	margin:0 0 0 20px;
+	font-weight: bold;
+	color: rgb(192,192,192);
+	font-size: 95px;
+	text-align: center;
+	line-height: 250px;
+}
+.s-bd div:nth-child(1) {
+	display: block;
+	margin:0 0 0 20px;
+    height: 250px;
+    width: 380px;
+    border:1px solid black;
+	background: white;
+}
+.s-tit .current,.s-tif .current {
+	background: rgb(192,192,192);
+}
+.item,.ite {
+	display: none;
+}
+.s-da{
+	position: relative;
+	height: 210px;
+	width: 358px;
+	margin:0 0 20px 20px; 
+}
+.s-da div{
+    float: left;
+    height: 30px;
+    border:1px solid black;
+    line-height: 30px;
+	text-align: center;
+    background: white;
+    margin: 0 0 20px -2px; 
+}
+.s-da div:nth-child(1){
+
+	width: 35px;
+	height: 30px;
+}
+.s-da div:nth-child(2){
+	width: 250px;
+}
+.s-da div:nth-child(3){
+	width: 70px;
+}
+.s-da button{
+	position: absolute;
+	top:180px;
+	right: 0;
+    height: 30px;
+    width: 120px;
+    border:1px solid black;
+    background: rgb(51,153,102);
+}
+#hid {
+	position: relative;
+	height: 210px;
+	width: 358px;
+	margin:0 0 20px 20px; 
+}
+#hid div{
+    float: left;
+    height: 30px;
+    margin-left: -1px;
+    border:1px solid black;
+    line-height: 30px;
+	text-align: center;
+    background: white;
+}
+#hid div:nth-child(1){
+	width: 35px;
+	height: 30px;
+}
+#hid div:nth-child(2){
+	width: 250px;
+}
+#hid div:nth-child(3){
+	width: 70px;
+}
+.t-da{
+	position: relative;
+	height: 210px;
+	width: 378px;
+	margin:0 0 20px 20px; 
+}
+.t-da button{
+	position: absolute;
+	top:180px;
+	right: 0;
+    height: 30px;
+    width: 120px;
+    border:1px solid black;
+    background: rgb(51,153,102);
+}

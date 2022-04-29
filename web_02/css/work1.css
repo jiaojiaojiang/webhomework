@@ -1,0 +1,272 @@
+#text{
+	color: black;
+}
+.ex{
+	opacity: 0;
+}
+.head-l{
+	position: absolute;
+	top: 32px;
+	left: 195px;
+	opacity: 0.5;
+}
+.head-r{
+	position: absolute;
+	top: 32px;
+	right: 270px;
+}
+.head{
+	position: absolute;
+	top: 32px;
+	left: 228px;
+	color: #C6C6C6;
+	font-family: "Consolas";
+	letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 17.5px;
+}
+.line{
+	position:relative;
+	top: -580px;
+    opacity: 0.3;
+}
+span{
+	margin-right: 15px;
+}
+.con{
+	color: #C6C6C6;
+	font-family: "Consolas";
+	font-weight: bold;
+	font-size: 17.5px;
+}
+.title{
+	font-family: "Arial";
+    font-weight: bold;
+    font-size: 22.3px;
+    
+}
+.text{
+	font-family: "Arial";
+    font-weight: bold;
+    font-size: 16px;
+    color: #BBBBBB;
+}
+.name{
+	font-family: "Arial";
+    font-weight: bold;
+    font-size: 14px;
+    color: #919191;
+}
+.date{
+	font-family: "Arial";
+    font-weight: bold;
+    font-size: 15px;
+    color: #BBBBBB;
+}
+#row11{
+	position: absolute;
+	left: 190px;
+	top: 78px;
+}
+#row12{
+	position: absolute;
+    left: 190px;
+    top: 100px;
+}
+#row13{
+	position: absolute;
+    left: 190px;
+    top: 140px;
+}
+#row14{
+	position: absolute;
+    left: 190px;
+    top: 182px;
+}
+#row15{
+	position: absolute;
+    left: 190px;
+    top: 205px;
+}
+#row21{
+	position: absolute;
+	left: 190px;
+	top: 278px;
+}
+#row22{
+	position: absolute;
+    left: 190px;
+    top: 297px;
+}
+#row23{
+	position: absolute;
+    left: 190px;
+    top: 337px;
+}
+#row24{
+	position: absolute;
+    left: 190px;
+    top: 379px;
+}
+#row25{
+	position: absolute;
+    left: 190px;
+    top: 402px;
+}
+#row31{
+	position: absolute;
+	left: 190px;
+	top: 475px;
+}
+#row32{
+	position: absolute;
+    left: 190px;
+    top: 494px;
+}
+#row33{
+	position: absolute;
+    left: 190px;
+    top: 534px;
+}
+#row34{
+	position: absolute;
+    left: 190px;
+    top: 576px;
+}
+#row35{
+	position: absolute;
+    left: 190px;
+    top: 599px;
+}
+.like1{
+	position: absolute;
+    left: 375px;
+    top: 617px;
+}
+.like2{
+	position: absolute;
+    left: 330px;
+    top: 224px;
+}
+.book1{
+	position: absolute;
+    left: 718px;
+    top: 203px;
+}
+.book2{
+	position: absolute;
+    left: 718px;
+    top: 400px;
+}
+.book3{
+	position: absolute;
+    left: 718px;
+    top: 597px;
+}
+.book4{
+	position: absolute;
+    left: 685px;
+    top: 203px;
+}
+.book5{
+	position: absolute;
+    left: 685px;
+    top: 400px;
+}
+.book6{
+	position: absolute;
+    left: 685px;
+    top: 597px;
+}
+.img1{
+	position: absolute;
+    left: 770px;
+    top: 96px;
+}
+.img2{
+	position: absolute;
+    left: 770px;
+    top: 296px;
+}
+.img3{
+	position: absolute;
+    left: 770px;
+    top: 496px;
+}
+#row1{
+    position: absolute;
+    left: 1037px;
+    top: 115px;
+}
+.mtitle{
+	font-family: "Arial";
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+#rowx{
+	position: absolute;
+    left: 1090px;
+    top: 210px;
+}
+#rowx1{
+	position: absolute;
+    left: 1090px;
+    top: 285px;
+}
+#rowx2{
+	position: absolute;
+    left: 1090px;
+    top: 308px;
+}
+#rowy{
+	position: absolute;
+    left: 1090px;
+    top: 358px;
+}
+#rowy1{
+	position: absolute;
+    left: 1090px;
+    top: 433px;
+}
+#rowy2{
+	position: absolute;
+    left: 1090px;
+    top: 456px;
+}
+#rowz{
+	position: absolute;
+    left: 1090px;
+    top: 506px;
+}
+#rowz1{
+	position: absolute;
+    left: 1090px;
+    top: 560px;
+}
+#rowz2{
+	position: absolute;
+    left: 1090px;
+    top: 583px;
+}
+.num{
+    font-family: "等线";
+    font-size: 31px;
+    color: #D2D2D2;
+    
+}
+#num1{
+	position: absolute;
+    left: 1040px;
+    top: 223px;
+}
+#num2{
+	position: absolute;
+    left: 1040px;
+    top: 373px;
+}
+#num3{
+	position: absolute;
+    left: 1040px;
+    top: 521px;
+}

@@ -1,0 +1,308 @@
+body{
+	margin: 0;
+}
+li{
+	top:16px;
+	list-style-type: none;
+}
+.m-bg{
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0.4;
+}
+.m-taobao{
+	width: 304px;
+	height: 440px;
+	border: 7px solid #eee;
+	box-sizing: border-box;
+}
+/*待收货 待发货 待付款 待评价*/
+.m-hd{   
+	height: 57px;
+}
+.m-hd>li>label{   
+	display: block;
+	color: #ff6600;
+	font-weight: bold;
+	font-size: 14px;
+}
+.m-hd>li>span{ 
+    position: relative;
+    top:-5px;  
+	font-size: 12px;
+}
+.m-hd>li:nth-child(1){   
+	position: absolute;;
+	left:36px;
+}
+.m-hd>li:nth-child(2){   
+	position: absolute;;
+	left:calc(36px + 66px);
+}
+.m-hd>li:nth-child(3){   
+	position: absolute;;
+	left:calc(36px + 2*66px);
+}
+.m-hd>li:nth-child(4){
+	position: absolute;
+	left:calc(36px + 3*66px);
+}
+.m-hd>li{
+	text-align: center;
+}
+/*网上有害信息举报专区*/
+.m-hm{
+	height: 25px;
+	background-color: #FFD3B5;
+}
+.m-hm>span{
+	font-size:12px;
+	color: #ff6600;
+    font-weight:bold;
+    margin-left: 81px;
+}
+.m-img1{
+	position: relative;
+	left: 26px;
+	top: 2px;
+}
+/*公告...*/
+.m-hh{
+	height: 45px;
+}
+.m-hh>li{
+	text-align: center;
+}
+.m-hh>li>span{ 
+    position: relative;
+    top:85px;  
+	font-size: 12px;
+}
+
+.m-hh>li:nth-child(1){   
+	position: absolute;;
+	left:30px;
+}
+.m-hh>li:nth-child(2){   
+	position: absolute;
+	left:calc(30px + 54px);
+}
+.m-hh>li:nth-child(3){   
+	position: absolute;;
+	left:calc(30px + 2*54px);
+}
+.m-hh>li:nth-child(4){
+	position: absolute;
+	left:calc(30px + 3*54px);
+}
+.m-hh>li:nth-child(5){
+	position: absolute;
+	left:calc(30px + 4*54px);
+}
+/*论坛下边框*/
+.m-sp{
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-bottom:solid #ff6600;
+	position: relative;
+	left: -2px;
+}
+/*双12大促*/
+.m-hmm{
+
+	height: 62px;
+}
+.m-hmm>span:nth-child(1){
+	display: block;
+	position: relative;
+    font-size:10px;
+    padding-top: 6px;
+    padding-left: 10px;
+	color: #ff6600;
+}
+.m-hmm>span:nth-child(2){
+	display: block;
+	position: relative;
+    font-size:10px;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+/*充话费*/
+.m-mm>div{
+	width: 70px;
+	height: 78px;
+	border-width:1px;
+	border-left: solid #ff6600;
+	border-top: solid #ff6600;
+	border-right: solid #ff6600;
+}
+.m-mm{
+	font-size: 12px;
+	height: 79px;
+}
+.m-mm>div>li>img{
+    position: relative;
+    top: 8px;
+    left: 16px;
+}
+.m-mm>div>li>span{
+	display: block;
+	color: #ff6600;
+	padding-left: 15px;
+    padding-top: 5px;
+}
+/*旅行*/
+.m-mm>li:nth-child(2)>img{
+	display: block;
+    position: relative;
+    top: -70px;
+    left: 90px;
+}
+.m-mm>li:nth-child(2)>span{
+	display: block;
+	position: relative;
+	top:-70px;
+	left: 95px;
+}
+/*车险*/
+.m-mm>li:nth-child(3)>img{
+
+    position: relative;
+    top: calc(-70px - 55px);
+    left: calc(90px + 70px);
+}
+.m-mm>li:nth-child(3)>span{
+	display: block;
+	position: relative;
+	top:calc(-71px - 55px);
+	left: calc(95px + 73px);
+}
+/*游戏*/
+.m-mm>li:nth-child(4)>img{
+    position: relative;
+    top:  calc(-70px - 2 * 55px);
+    left:  calc(90px + 2 * 72px);
+}
+.m-mm>li:nth-child(4)>span{
+	display: block;
+	position: relative;
+	top:calc(-71px - 2*56px);
+	left: calc(95px + 2*73px);
+}
+/*下方布局边框*/
+.m-mb{
+	font-size: 13px;
+	width: 286px;
+	height: 156px;
+	border-width: 0.5px;
+	border-bottom:solid #ff6600;
+	border-left: solid #ff6600;
+	border-right: solid #ff6600;
+}
+.m-mb>span{
+	display: block;
+	border-top:solid #ff6600;
+    margin-left: 69.5px;
+	height: 2px;
+}
+/*充话费...布局*/
+.m-mb>li>span:nth-child(1){
+	position: relative;
+    color: #ff6600;
+    top:4px;
+    left: 22px;
+}
+.m-mb>li>span:nth-child(2){
+	position: relative;
+    color: #A3A3A3;
+    top:4px;
+    left: calc(18px + 20px);
+}
+.m-mb>li>span:nth-child(3){
+	position: relative;
+    color: #A3A3A3;
+    top:4px;
+    left: calc(18px + 2*18px);
+}
+.m-mb>li>span:nth-child(4){
+	position: relative;
+    color: #A3A3A3;
+    top:4px;
+    left: calc(18px + 3*18px);
+}
+.m-mb>li>span:nth-child(5){
+	position: relative;
+    color: #A3A3A3;
+    top:1px;
+    left: calc(18px + 4*20px);
+}
+/*输入手机号码画框*/
+.m-mb1{
+    margin-top: 15px;
+    margin-left: 14px;
+    margin-right: 83px;
+    height:23px; 
+    border:0.5px solid #A3A3A3;
+}
+.m-mb2{
+    margin-left: 14px;
+    margin-right: 83px;
+    height:23px; 
+    border-bottom:0.5px solid #A3A3A3;
+    border-left:0.5px solid #A3A3A3;
+    border-right:0.5px solid #A3A3A3;
+}
+/*输入手机号码*/
+.m-mb1>span{
+	display: block;
+	color: #A3A3A3;
+	font-size: 12px;
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+.m-mb2>span{
+	display: block;
+	color: #A3A3A3;
+	font-size: 12px;
+	position: relative;
+	top: 5px;
+	left: 3px;
+}
+/*售价*/
+.m-mb3{
+	height: 30px;
+}
+.m-mb3>span:nth-child(1){
+	display: block;
+	color: #A3A3A3;
+	font-size: 13px;
+	position: relative;
+	top: 7px;
+	left: 15px;
+}
+.m-mb3>span:nth-child(2){
+    color: #ff6600;
+	font-size: 13px;
+	position: relative;
+	top: -10px;
+	left: 59px;
+	font-weight: bold;
+}
+/*立即充值*/
+.m-mb4{
+    margin-left: 14px;
+    margin-right:204px;
+	height: 27px;
+	background-color: #ff6600;
+	text-align:center;
+}
+.m-mb4>span{
+    display: block;
+    position: relative;
+    font-size: 12px;
+    top: 5px;
+    color: white;
+}

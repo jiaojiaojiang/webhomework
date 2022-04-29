@@ -1,0 +1,336 @@
+.g-index{
+	width: 1204px;
+	height: 1252px;
+	margin: 0 auto;
+}
+div{
+	display: block;
+}
+/*顶部盒子*/
+.m-hd{
+	margin:0 auto;
+	height: 440px;
+	width: 1204px;
+}
+/*顶部盒子的左右盒子*/
+.m-hd>div{
+	position: relative;
+	top: 50px;
+	left: 125px;
+	width: 490px;
+	float: left;
+	box-sizing: border-box;
+}
+/*左右盒子的间距*/
+.m-hd>div+div{
+	margin-left: 45px;
+}
+/*左盒子*/
+.m-lt{
+	height: 320px;
+	background:url(../img/1.jpg);
+	background-size: 100%;
+}
+/*右盒子*/
+.m-rt>p{
+	margin-bottom: 10px;
+	font-size: 23px;
+	font-family: 黑体;
+	font-weight: bold;
+}
+.m-hh{
+	position: relative;
+	border-top: 5px solid#257B9B;
+	height: 20px;
+	width: 50px;
+}
+/*右盒子文本*/
+.m-text{
+	position: relative;
+	top:-10px;
+	width: 470px;
+}
+.m-text>p{
+	color : #595959;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 33px;
+	height: 140px;
+}
+/*右盒子底部圆角矩形*/
+.m-bottom{
+	position: relative;
+	left: 6px;
+	height: 40px;
+	width: 200px;
+	background-color: #2F77B9;
+	border-radius: 5px;
+}
+.m-bottom>p{
+	margin:0;
+	color: white;
+	font-family: 黑体;
+	position: relative;
+	width: 100px;
+	top:10px;
+	left: 25px;
+}
+.m-bottom>img{
+	position: relative;
+	top: -7px;
+	left: -10px;
+	float: right;
+	box-sizing: border-box;
+}
+/*中部盒子*/
+.m-bd{
+	height: 340px;
+}
+.m-bh{
+	position: relative;
+	left: 125px;
+	width: 1005px;
+	padding-bottom: 25px;
+	border-bottom:3px solid #CCCCCC;
+}
+/*中部盒子的标题*/
+.m-bh>span:nth-child(1){
+	position: relative;
+	left: 5px;
+	color: #2F77B9;
+    font-size: 30px;
+    font-weight: bold;
+}
+.m-bh>span:nth-child(2){
+	position: relative;
+	top:-4px;
+	left: 19px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 19px;
+    border-left:4px solid #2F77B9;
+}
+/*中部盒子的顶部圆角矩形*/
+.m-bh>div{
+	float: right;
+	box-sizing: border-box;
+	position: relative;
+	background-color: #2F77B9;
+	width: 150px;
+	height: 35px;
+    left: -2px;
+    border-radius: 5px;
+}
+.m-bh>div>p{
+	color: white;
+	font-family: 黑体;
+	position: relative;
+	top:-5px;
+	left: 34px;
+	font-size: 14px;
+}
+/*中部盒子的身体部分*/
+.m-bb>div{
+	position: relative;
+	left: 125px;
+	width: 1005px;
+	height: 90px;
+	border-bottom: 3px solid #EEEEEE;
+}
+/*中部盒子身体的第一行*/
+.m-bb>div:nth-child(1)>span{
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	color: #898989;
+	top:42px;
+}
+.m-bb>div:nth-child(1)>div{
+	background-color: #5393CF;
+	height: 27px;
+	width: 111px;
+	border-radius: 20px;
+	position: relative;
+	top: 5px;
+	left:113px;
+}
+.m-bb>div:nth-child(1)>div>p{
+	font-size: 13px;
+	color: white;
+	position: relative;
+	top: 4px;
+	left: 42px;
+}
+.m-bb>div:nth-child(1)>u{
+	color: #4A4A4A;
+	position: relative;
+	top: -20px;
+	left: 250px;
+	font-weight: bold;
+}
+/*中部盒子身体的第二行*/
+.m-bb>div:nth-child(2)>span{
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	color: #898989;
+	top:42px;
+}
+.m-bb>div:nth-child(2)>div{
+	background-color: #53B051;
+	height: 27px;
+	width: 111px;
+	border-radius: 20px;
+	position: relative;
+	top: 5px;
+	left:113px;
+}
+.m-bb>div:nth-child(2)>div>p{
+	font-size: 13px;
+	color: white;
+	position: relative;
+	top: 4px;
+	left: 25px;
+}
+.m-bb>div:nth-child(2)>u{
+	color: #4A4A4A;
+	position: relative;
+	top: -20px;
+	left: 250px;
+	font-weight: bold;
+}
+/*中部盒子身体的第三行*/
+.m-bb>div:nth-child(3)>span{
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	color: #898989;
+	top:42px;
+}
+.m-bb>div:nth-child(3)>div{
+	background-color: #53B051;
+	height: 27px;
+	width: 111px;
+	border-radius: 20px;
+	position: relative;
+	top: 5px;
+	left:113px;
+}
+.m-bb>div:nth-child(3)>div>p{
+	font-size: 13px;
+	color: white;
+	position: relative;
+	top: 4px;
+	left: 25px;
+}
+.m-bb>div:nth-child(3)>u{
+	color: #4A4A4A;
+	position: relative;
+	top: -20px;
+	left: 250px;
+	font-weight: bold;
+}
+/*底部*/
+.m-ft{
+	width: 1248px;
+    margin-top: 10px;
+	height: 412px;
+	background-color: #F6F6F6;
+}
+/*底部标题*/
+.m-ft>span{
+	position: relative;
+	padding-left: 10px;
+	top: 10px;
+	left: 52px;
+	border-left: 7px solid #21507C;
+    font-size: 24px;	
+    font-weight: bold;
+    color: #21507C;
+}
+.m-ft>span+span{
+    margin-left: 325px;	
+}
+/*底部两个方框*/
+.m-ft>div{
+	position: relative;
+	top: 34px;
+	left: 51px;
+	height: 318px;
+	width: 540px;
+	float: left;
+	box-sizing: border-box;
+	background-color: white;
+	border:2px solid #DEDEDE;
+	text-align: center;
+}
+.m-ft>div+div{
+	margin-left: 70px;
+}
+/*底部第一个方框的内容*/
+strong{
+    font-size: 22px;
+    position: relative;
+    top: 38px;
+    color: #3A3A3A;
+}
+.m-con>p{
+    position: relative;
+    top: 6px;
+    font-size: 41px;
+    font-weight: bold;
+    color: #21507C;
+}
+.m-con>div{
+	font-weight: bold;
+	line-height: 28px;
+	color: #3A3A3A;
+	position: relative;
+	top:-15px;
+	left: 54px;
+	height: 74px;
+	width: 429px;
+	border-bottom: 2px solid #DEDEDE;
+}
+.m-con>span{
+	font-weight: bold;
+	color: #21507C;
+	position: relative;
+	top:6px;
+	font-size: 20px;
+}
+/*底部第二个方框的内容*/
+.m-co>div{
+	position: relative;
+	top: 71px;
+	left: 52px;
+	width: 430px;
+	height: 71px;
+	border-radius: 10px;
+	box-shadow: 1px 1px #000000;
+	background-color:  #3872A8;
+}
+.m-co>div>p{
+	color: white;
+	margin:0 auto; 
+	font-size: 20px;
+	position: relative;
+	top: -13px;
+	left: 22px;
+}
+.p-em{
+    position: relative;
+	top: 20px;
+	left: -139px;
+}
+.p-r{
+    position: relative;
+	top: -38px;
+	left: 191px;
+}
+.m-co>strong{
+	position: relative;
+	top: 93px;
+	font-size: 16px;
+	line-height: 27px;
+}
